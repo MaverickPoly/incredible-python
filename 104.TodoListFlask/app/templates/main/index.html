@@ -1,0 +1,18 @@
+{% extends "base.html" %}
+
+<!-- Block title missing deliberately -->
+
+{% block content %}
+<div class="flex items-center justify-center p-12">
+    <div class="max-w-6xl w-full flex flex-col items-start">
+        <h1 class="text-5xl font-bold mb-6">TODO List app</h1>
+        <p class="text-lg">This simple todo list application was implemented in Python using Flask module for backend development.</p>
+
+        <a
+            href="{{ url_for('todos.view') }}"
+            class="text-blue-500 hover:underline font-semibold text-lg pt-3"
+        >Todos</a>
+    </div>
+</div>
+
+{% endblock %}

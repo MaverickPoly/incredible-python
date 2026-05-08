@@ -49,7 +49,7 @@ def get_todo_id(instruction: str) -> int:
 
 def main():
     load_todos()
-    print("======== Welcome to CLI Todo List app ========")
+    print("======== Welcome to CLI Todo List auth ========")
 
     running = True
     while running:

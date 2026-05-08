@@ -1,0 +1,49 @@
+{% extends "base.html" %}
+
+
+{% block content %}
+<div class="w-full flex items-center justify-center p-8">
+    <div class="max-w-5xl w-full">
+        <h1 class="text-center text-6xl pb-10 font-extrabold">Personal Portfolio</h1>
+
+
+        <div class="flex w-full justify-between gap-10">
+            <img
+                    class="w-72 h-72 rounded-full"
+                    src="{{ url_for('static', filename='img/profile.png') }}"
+                    alt="Profile image"
+            />
+
+            <div class="flex flex-col items-start flex-1"   >
+                <h2 class="text-3xl font-bold py-3">Maverick</h2>
+                <a class="text-lg text-sky-600 hover:underline font-bold" href="mailto:altairetech@gmail.com">Email</a>
+                <h5 class="text-lg"><span class="font-bold">Nationality:</span> Uzbek</h5>
+                <h5 class="text-lg"><span class="font-bold">Age:</span> 16 y.o.</h5>
+            </div>
+        </div>
+
+        <div class="w-full h-[1px] bg-neutral-400 my-8"></div>
+
+        <p class="text-md tracking-wider text-neutral-700">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem, culpa dolores doloribus est eveniet
+            explicabo fugiat fugit harum illo labore molestiae nam natus neque nihil nisi officia perspiciatis porro
+            possimus quaerat, quam, rem repudiandae saepe sed sequi tempore vero voluptates. Aut beatae doloremque
+            dolores eligendi fugit ipsa ipsum iste laudantium nam odit placeat quasi quod saepe sit, temporibus tenetur
+            vitae. Aspernatur blanditiis debitis, dolorum expedita fugiat, harum in iusto, labore nam necessitatibus
+            neque possimus provident repellendus soluta totam veritatis vero. Ab, aliquid, architecto culpa doloribus
+            eaque excepturi exercitationem fugiat labore maxime natus nihil provident quam quo sequi sint unde
+            voluptates! Iste itaque molestias obcaecati?
+            <br>
+            <br>
+            Alias architecto aspernatur blanditiis consequatur
+            consequuntur deleniti dolor eius et eum, exercitationem in ipsa labore laborum magni molestiae neque nisi,
+            non nulla odio praesentium quis quisquam ratione repellat repudiandae saepe sint tempora temporibus totam
+            ullam unde vitae voluptas voluptate voluptatum! A, accusamus accusantium aliquam dolor doloremque, dolores
+            ducimus iste mollitia nobis nulla quisquam ratione rerum, sequi velit voluptas? Ab animi consectetur
+            delectus dolor enim labore libero, odit rerum saepe sunt, suscipit temporibus ut voluptatibus. Ad,
+            aspernatur assumenda cumque delectus dolor eligendi enim harum ipsam minus necessitatibus odio odit quae
+            qui ratione tempore vel velit vitae voluptatem.
+        </p>
+    </div>
+</div>
+{% endblock %}

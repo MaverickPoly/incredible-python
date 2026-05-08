@@ -23,7 +23,7 @@ questions = [
 
 
 def main():
-    print("====== Welcome to quiz app ======")
+    print("====== Welcome to quiz auth ======")
     print("=" * 40)
 
     score = 0

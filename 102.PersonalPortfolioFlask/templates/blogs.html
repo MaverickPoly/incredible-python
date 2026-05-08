@@ -1,0 +1,36 @@
+{% extends "base.html" %}
+
+{% block title %} Blogs {% endblock %}
+
+<!--
+id, title, slug, excerpt, outline, category, tags, read_time, published_date
+-->
+
+{% block content %}
+<div class="w-full flex items-center justify-center p-8">
+    <div class="max-w-7xl w-full flex flex-col">
+        <h2 class="text-4xl font-bold pb-8">Blogs</h2>
+        <div class="max-w-[1400px] w-full grid lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-2 gap-4 items-start">
+            {% for blog in blogs %}
+                <div class="flex flex-col items-start bg-neutral-100 shadow-sm hover:shadow-md duration-100 p-4 rounded-md gap-1">
+                    <h2 class="text-xl font-semibold">{{ blog.title }}</h2>
+                    <span class="px-4 py-1 text-sm rounded-full bg-neutral-700 text-white">{{ blog.category|capitalize }}</span>
+
+                    <p class="text-sm text-neutral-700 py-1">{{ blog.excerpt }}</p>
+
+                    <div class="flex gap-2 items-center text-sm text-neutral-700">
+                        <i class="fa fa-calendar"></i>
+                        {{ blog.published_date }}
+                    </div>
+
+                    <div class="flex gap-2 items-center text-sm text-neutral-700">
+                        <i class="fa fa-eye"></i>
+                        {{ blog.read_time }}
+                    </div>
+                </div>
+            {% endfor %}
+        </div>
+    </div>
+</div>
+
+{% endblock %}

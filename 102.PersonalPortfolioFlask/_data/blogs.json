@@ -1,0 +1,213 @@
+[
+    {
+      "id": 1,
+      "title": "Building Scalable Web Applications with Flask and Docker",
+      "slug": "building-scalable-web-applications-flask-docker",
+      "excerpt": "Learn how to containerize your Flask applications and deploy them at scale using Docker and Kubernetes.",
+      "outline": [
+        "Why containerization matters for Flask apps",
+        "Setting up a production-ready Flask structure",
+        "Writing an optimized Dockerfile with multi-stage builds",
+        "Using Docker Compose for local development",
+        "Deploying to Kubernetes (deployment.yaml, service, ingress)",
+        "Performance optimization: Gunicorn workers, Redis caching, CDN",
+        "Monitoring and logging strategies",
+        "Common pitfalls and how to avoid them"
+      ],
+      "category": "backend",
+      "tags": ["Flask", "Docker", "Kubernetes", "DevOps", "Scalability"],
+      "read_time": 8,
+      "published_date": "2024-01-20"
+    },
+    {
+      "id": 2,
+      "title": "Modern React Patterns You Should Know in 2024",
+      "slug": "modern-react-patterns-2024",
+      "excerpt": "Explore advanced React patterns including compound components, render props, and custom hooks to write cleaner, more maintainable code.",
+      "outline": [
+        "Compound components pattern for flexible APIs",
+        "Custom hooks for logic reuse (useFetch, useLocalStorage)",
+        "Render props pattern (when to use vs hooks)",
+        "State reducer pattern for controlled components",
+        "Context module functions pattern",
+        "Performance optimization with useMemo, useCallback, React.memo",
+        "Portal pattern for modals and tooltips",
+        "Higher-order components patterns (legacy vs modern)"
+      ],
+      "category": "frontend",
+      "tags": ["React", "JavaScript", "Frontend", "Hooks", "Patterns"],
+      "read_time": 12,
+      "published_date": "2024-01-15"
+    },
+    {
+      "id": 3,
+      "title": "Mastering Python Async/Await: A Practical Guide",
+      "slug": "mastering-python-async-await-guide",
+      "excerpt": "Dive deep into Python's asyncio library, understanding event loops, coroutines, and best practices for asynchronous programming.",
+      "outline": [
+        "Understanding the event loop and coroutines",
+        "Creating and managing tasks with asyncio.create_task()",
+        "Using asyncio.gather() vs asyncio.wait() vs asyncio.as_completed()",
+        "Async context managers and async generators",
+        "Rate limiting with semaphores",
+        "Queue-based producer-consumer patterns",
+        "Handling timeouts and cancellation gracefully",
+        "Integrating async code with sync code (run_in_executor)",
+        "Common mistakes: blocking calls, forgotten awaits, unhandled exceptions"
+      ],
+      "category": "backend",
+      "tags": ["Python", "Async", "Asyncio", "Concurrency"],
+      "read_time": 15,
+      "published_date": "2024-01-10"
+    },
+    {
+      "id": 4,
+      "title": "Docker Best Practices for Development and Production",
+      "slug": "docker-best-practices-dev-production",
+      "excerpt": "Learn essential Docker best practices including layer caching, multi-stage builds, security considerations, and optimization techniques.",
+      "outline": [
+        "Optimizing Dockerfile layering for better caching",
+        "Multi-stage builds to reduce image size",
+        "Security best practices (non-root users, secrets management)",
+        "Using .dockerignore effectively",
+        "Health checks and proper process management",
+        "Resource limits (CPU, memory) for containers",
+        "Logging strategies (json-file vs syslog vs ELK stack)",
+        "Container orchestration considerations"
+      ],
+      "category": "devops",
+      "tags": ["Docker", "DevOps", "Containers", "Best Practices"],
+      "read_time": 10,
+      "published_date": "2024-01-05"
+    },
+    {
+      "id": 5,
+      "title": "Building RESTful APIs with FastAPI: Beyond the Basics",
+      "slug": "building-restful-apis-fastapi-beyond-basics",
+      "excerpt": "Take your FastAPI skills to the next level with dependency injection, background tasks, WebSockets, and production-ready patterns.",
+      "outline": [
+        "Advanced dependency injection patterns",
+        "Background tasks for long-running operations",
+        "WebSocket support for real-time features",
+        "Pagination, filtering, and sorting patterns",
+        "Rate limiting implementation",
+        "OpenAPI customization and documentation",
+        "Testing strategies (pytest-asyncio, TestClient)",
+        "Production deployment with Gunicorn + Uvicorn",
+        "Monitoring with OpenTelemetry"
+      ],
+      "category": "backend",
+      "tags": ["FastAPI", "Python", "API", "REST", "WebSockets"],
+      "read_time": 11,
+      "published_date": "2024-01-25"
+    },
+    {
+      "id": 6,
+      "title": "TypeScript: From Zero to Hero",
+      "slug": "typescript-from-zero-to-hero",
+      "excerpt": "A comprehensive guide to TypeScript's advanced type system, including generics, conditional types, and utility types.",
+      "outline": [
+        "Basic types and type annotations",
+        "Interfaces vs types vs classes",
+        "Advanced types: unions, intersections, mapped types",
+        "Generics: building reusable components",
+        "Conditional types and infer keyword",
+        "Template literal types",
+        "Utility types (Partial, Pick, Omit, ReturnType)",
+        "Type guards and narrowing",
+        "Decorators and experimental features",
+        "Setting up TypeScript with React/Node"
+      ],
+      "category": "frontend",
+      "tags": ["TypeScript", "JavaScript", "Frontend", "Backend"],
+      "read_time": 14,
+      "published_date": "2024-01-18"
+    },
+    {
+      "id": 7,
+      "title": "PostgreSQL Performance Tuning for Developers",
+      "slug": "postgresql-performance-tuning-developers",
+      "excerpt": "Learn practical PostgreSQL optimization techniques including indexing strategies, query optimization, and database design patterns.",
+      "outline": [
+        "Understanding EXPLAIN and query plans",
+        "Index types: B-tree, Hash, GIN, GiST (when to use which)",
+        "Composite indexes and index ordering",
+        "Partitioning strategies for large tables",
+        "Vacuum and autovacuum optimization",
+        "Connection pooling with PgBouncer",
+        "Read replicas for scaling",
+        "Query optimization: JOIN strategies, subqueries vs CTEs",
+        "Materialized views for expensive queries",
+        "Monitoring tools (pg_stat_statements, pgBadger)"
+      ],
+      "category": "database",
+      "tags": ["PostgreSQL", "Database", "Performance", "SQL"],
+      "read_time": 13,
+      "published_date": "2024-01-12"
+    },
+    {
+      "id": 8,
+      "title": "GraphQL vs REST: A Practical Comparison",
+      "slug": "graphql-vs-rest-practical-comparison",
+      "excerpt": "Deep dive into GraphQL and REST API patterns, comparing their strengths, weaknesses, and ideal use cases.",
+      "outline": [
+        "REST: Resource-based architecture and HTTP methods",
+        "GraphQL: Single endpoint, query language, and schema",
+        "Versioning strategies (REST URLs vs GraphQL deprecation)",
+        "Performance: Over-fetching, under-fetching, and N+1 problem",
+        "Caching strategies (HTTP caching vs Apollo Client)",
+        "Authentication and authorization patterns",
+        "Real-time data: WebSockets with GraphQL subscriptions",
+        "File uploads in both approaches",
+        "Tooling ecosystem (Postman vs GraphiQL, Apollo Studio)",
+        "When to choose what: decision framework"
+      ],
+      "category": "backend",
+      "tags": ["GraphQL", "REST", "API", "Web Development"],
+      "read_time": 12,
+      "published_date": "2024-01-08"
+    },
+    {
+      "id": 9,
+      "title": "Git Internals: Understanding the .git Folder",
+      "slug": "git-internals-understanding-dot-git-folder",
+      "excerpt": "Go beyond basic Git commands and understand what actually happens inside the .git directory.",
+      "outline": [
+        "Structure of the .git folder (objects, refs, HEAD, index)",
+        "Git objects: blobs, trees, commits, and annotated tags",
+        "How Git stores content (SHA-1 hashing and compression)",
+        "The three stages: working directory, staging area, repository",
+        "How branches and references work internally",
+        "Git's garbage collection and packing",
+        "Rebasing vs merging: what actually happens",
+        "Recovering lost commits with git reflog",
+        "Custom Git hooks for automation"
+      ],
+      "category": "devops",
+      "tags": ["Git", "Version Control", "DevOps", "Internals"],
+      "read_time": 9,
+      "published_date": "2024-01-22"
+    },
+    {
+      "id": 10,
+      "title": "CSS Architecture: Modern Approaches for Large Projects",
+      "slug": "css-architecture-modern-approaches",
+      "excerpt": "Explore CSS methodologies like BEM, CSS Modules, Tailwind CSS, and CSS-in-JS for scalable styling.",
+      "outline": [
+        "The problem with global CSS at scale",
+        "BEM methodology: Blocks, Elements, Modifiers",
+        "CSS Modules: locally scoped CSS for components",
+        "Tailwind CSS: utility-first workflow",
+        "CSS-in-JS: Styled Components, Emotion, and performance implications",
+        "Atomic CSS vs semantic CSS",
+        "CSS preprocessors: SCSS features and best practices",
+        "Critical CSS and performance optimization",
+        "Dark mode theming strategies",
+        "Migration strategies between approaches"
+      ],
+      "category": "frontend",
+      "tags": ["CSS", "Frontend", "Architecture", "Styling", "Tailwind"],
+      "read_time": 10,
+      "published_date": "2024-01-28"
+    }
+]

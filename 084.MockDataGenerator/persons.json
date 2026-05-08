@@ -1,0 +1,57 @@
+[
+  {
+    "id": "15a24454-a792-4eac-b526-a85653eb1656",
+    "first_name": "Кондратий",
+    "last_name": "Денисова",
+    "email": "nikandr_51@example.org",
+    "country": "Нигерия",
+    "username": "larionovanadezhda",
+    "password": "+iM6pRmc)x",
+    "date_of_birth": "1968-09-03",
+    "created_at": "2021-01-10 10:04:01.246400"
+  },
+  {
+    "id": "406acbb9-135a-4d74-a292-aba1fd01a565",
+    "first_name": "Евпраксия",
+    "last_name": "Ильин",
+    "email": "pgusev@example.com",
+    "country": "Гамбия",
+    "username": "viktor_2024",
+    "password": "^lJ!5Bf$#&",
+    "date_of_birth": "1957-04-25",
+    "created_at": "2021-04-20 17:19:19.846951"
+  },
+  {
+    "id": "a1c351d4-8704-4fab-96e1-5f1502d2740c",
+    "first_name": "Пелагея",
+    "last_name": "Рогов",
+    "email": "vladislav94@example.net",
+    "country": "Республика Конго",
+    "username": "panfil_40",
+    "password": "v5YpomBR%q",
+    "date_of_birth": "1935-01-08",
+    "created_at": "2022-12-19 18:59:54.946449"
+  },
+  {
+    "id": "e14d0f9a-c59d-4d9a-9137-19991064ae3e",
+    "first_name": "Ефрем",
+    "last_name": "Шарапова",
+    "email": "jmjasnikov@example.net",
+    "country": "Науру",
+    "username": "jmartinova",
+    "password": "%2XN@$v7nm",
+    "date_of_birth": "2008-01-10",
+    "created_at": "2020-04-25 00:21:22.019557"
+  },
+  {
+    "id": "15291da0-c11a-401e-a54d-804d4059e6b0",
+    "first_name": "Виталий",
+    "last_name": "Михеев",
+    "email": "veronika_61@example.net",
+    "country": "Лесото",
+    "username": "pahomovnikodim",
+    "password": "54ewG3pW&k",
+    "date_of_birth": "1923-07-31",
+    "created_at": "2020-05-15 09:37:18.349334"
+  }
+]

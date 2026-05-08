@@ -1,0 +1,38 @@
+{% extends "base.html" %}
+
+{% block title %} TODOs {% endblock %}
+
+{% block content %}
+<a
+    class="fixed top-3 right-3 text-sky-600 hover:underline font-semibold"
+    href="{{ url_for('todos.create') }}"
+>
+    Create
+</a>
+
+<div class="flex items-center justify-center w-full p-8">
+    <div class="max-w-5xl flex flex-col w-full gap-3">
+        {% for todo in todos %}
+            <div
+                class="flex justify-between items-center p-4 border {% if todo.completed %} border-green-800 {% else %}
+                       border-red-700 {% endif %} rounded-lg todo{{todo.id}}"
+            >
+                <div class="flex flex-col">
+                    <h2 class="text-lg font-semibold">{{ todo.title }}</h2>
+                    <p class="">{{ todo.created_at.strftime("%d-%m-%y") }}</p>
+                </div>
+
+                <div class="flex items-center gap-2">
+                    <button class="bg-orange-700 py-1 px-2 cursor-pointer rounded-lg" onclick="toggleTodo({{ todo.id }})">
+                        Toggle
+                    </button>
+                    <button class="bg-red-700 py-1 px-2 cursor-pointer rounded-lg" onclick="deleteTodo({{ todo.id }})">
+                        Delete
+                    </button>
+                </div>
+            </div>
+        {% endfor %}
+    </div>
+</div>
+
+{% endblock %}
